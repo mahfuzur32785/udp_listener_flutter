@@ -24,9 +24,10 @@ Add Required Permissions in android/app/src/main/AndroidManifest.xml
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
 
-
+```
 Update MainActivity.kt file twith this code
 
+```bash
 package com.yourpackage.name
 
 import android.net.wifi.WifiManager
