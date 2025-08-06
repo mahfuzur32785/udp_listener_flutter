@@ -25,7 +25,7 @@ Add Required Permissions in android/app/src/main/AndroidManifest.xml
 <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
 
 ```
-Update MainActivity.kt file twith this code
+### 2. Update MainActivity.kt file twith this code
 
 ```bash
 package com.yourpackage.name
@@ -51,3 +51,17 @@ class MainActivity : FlutterActivity() {
         super.onDestroy()
     }
 }
+
+```
+
+## For IOS Add Thsi Line In Info.plist file 
+
+```bash
+	<key>NSLocalNetworkUsageDescription</key>
+    <string>This app needs local network access to receive broadcast messages.</string>
+
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_udp._udp</string>
+    </array>
+```
