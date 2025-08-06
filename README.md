@@ -57,9 +57,8 @@ class MainActivity : FlutterActivity() {
 ## For IOS Add Thsi Line In Info.plist file 
 
 ```bash
-	<key>NSLocalNetworkUsageDescription</key>
+    <key>NSLocalNetworkUsageDescription</key>
     <string>This app needs local network access to receive broadcast messages.</string>
-
     <key>NSBonjourServices</key>
     <array>
         <string>_udp._udp</string>
