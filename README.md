@@ -14,14 +14,9 @@ A simple Flutter app to **listen to incoming UDP packets** using the [`udp`](htt
 
 ## 🚀 Getting Started
 
-### 1. Clone the Project
+### 1. Ensure this Changes
 
 ```bash
-git clone https://github.com/your-username/flutter_udp_listener.git
-cd flutter_udp_listener
-
-Add this to your pubspec.yaml file:
-  udp: ^2.1.0
 
 Add Required Permissions in android/app/src/main/AndroidManifest.xml
 
