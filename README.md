@@ -1,16 +1,21 @@
-# udp_demo
+# 📡 Flutter UDP Listener
 
-A new Flutter project.
+A simple Flutter app to **listen to incoming UDP packets** using the [`udp`](https://pub.dev/packages/udp) package. Supports Android with required native permission configurations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🔧 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Bind to a specific UDP port
+- Receive and display incoming UDP packets
+- Cross-platform (with Android-specific permission setup)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### 1. Clone the Project
+
+```bash
+git clone https://github.com/your-username/flutter_udp_listener.git
+cd flutter_udp_listener
